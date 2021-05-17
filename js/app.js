@@ -7,6 +7,7 @@ import logger from 'morgan';
 import indexRouter from './routes/index.js';
 import apiRouter from './routes/api/index.js';
 import apiLoanApplicationRouter from './routes/api/loan_application.js';
+import apiMerchantConfigRouter from './routes/api/merchant_config.js';
 
 const __dirname = path.resolve();
 
