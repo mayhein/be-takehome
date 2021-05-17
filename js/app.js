@@ -29,6 +29,7 @@ app.get('/health-check', (req, res) => res.sendStatus(200));
 app.use('/', indexRouter);
 app.use('/api', apiRouter);
 app.use('/api/loan_application/', apiLoanApplicationRouter);
+app.use('/api/merchant_config', apiMerchantConfigRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
